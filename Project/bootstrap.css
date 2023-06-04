@@ -1,0 +1,33 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Rubik+Moonrocks&display=swap');
+
+.nopt
+{
+	font-weight: bolder;
+	color: black;
+	font-size:20px;
+}
+.logo,.logo1
+{
+ font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+}
+.hpy
+{
+   font-size: 50px;
+   color:blue;
+
+
+}
+.jrny
+{ 
+	font-size: 50px;
+   color:blue;
+}
+.navigation-bar
+{
+/*  background-image:linear-gradient(to right,#42f5bc,#4debbb,#61f2c7,#7cfcd6,#61f2c7,#4debbb,#42f5bc);*/
+  background-color:#fabf3e;
+  
+}

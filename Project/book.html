@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		
+		.book
+		{
+			background-color:yellowgreen;
+			width: 80px;
+			height: 35px;
+			margin-left: 310px;
+			
+		}
+		.cncl
+		{
+			background-color: red;
+			margin-left: 200px;
+			height: 35px;
+			width: 80px;
+	 
+		}
+		.leb
+		{
+			padding-left: 100px;
+			font-size: 20px;
+			
+		}
+		.mdiv
+		{
+			background-image: linear-gradient(to right,#edcae4,#f5aebe,#fad9a7,#f5aebe,#edcae4);
+			background-position:center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			height: 100vh;
+			width: 100%;
+			
+			
+
+			
+		}*/
+	</style>
+	<title>Form Tag</title>
+</head>
+<body>
+      <div class="mdiv">
+      	<form  autocomplete="off">
+      		 <!-- <fieldset>  -->
+      			<legend style="text-align: center; background-color: lightgrey; height: 45px; font-weight: bolder; font-size: 30px;"> TICKET BOOKING</legend>
+      			<br><br>
+      			<label class="leb"> First Name :</label >
+      			<input type="text" name="un"  required style="width:250px; height:25px;height:25px; ">
+
+      			<label class="leb"> Last Name :</label >
+      			<input type="text" name="un" required style="width:250px;height:25px;"><br><br>
+      			
+      			<label class="leb">Phone No :</label>
+      			<input type="text" name="phn" required pattern="[6-9]{1}[0-9]{9}" style="width:250px;height:25px;">
+
+      			<label class="leb"> Email ID :</label >
+      			<input type="email" name="mail"   required style="width:250px;height:25px;"><br><br>
+
+      			<label class="leb">Address :</label>
+      			<input type="text" name="add" width="10px"required  style="width:600px;height:25px;"><br><br>
+
+      			<label class="leb">gender :</label>
+      			<input type="radio" name="gender"> male
+      			<input type="radio" name="gender"> female
+     			<input type="radio" name="gender"> others
+
+                <label class="leb">Age :</label>
+      			<input type="number" name="age" id="age" min="20" max= "70" required style="width:60px; margin-right: 100px; height: 20px;"><br><br>
+      			<br>
+      			<button type="book" class="book">Book</button>
+      			<button type="reset" class="cncl">Cancle</button>
+      			
+      		<!-- </fieldset>  -->
+      	 </form> 
+      	      
+      </div>s
+</body>
+</html>
